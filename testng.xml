@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="testng.xml">
+		<classes>
+			<class name="com.ncs.Tests.WeatherTest"/>
+            <class name="com.ncs.Tests.FeedBackTest"/>
+            <class name="com.ncs.Tests.TOIButtonTest"/>
+            <class name="com.ncs.Tests.SearchTestDDT"/>
+            <class name="com.ncs.Tests.APITest"/>
+            <class name="com.ncs.Tests.RadarTabTest"/>
+            
+              
+		</classes>
+	</test> <!-- testng.xml -->
+</suite> <!-- Suite -->

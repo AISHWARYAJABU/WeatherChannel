@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="testng.xml(failed)">
+    <classes>
+      <class name="com.ncs.Tests.SearchTestDDT">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="searchForCity" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ncs.Tests.SearchTestDDT -->
+      <class name="com.ncs.Tests.WeatherTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testStaySafeTab"/>
+          <include name="finaltest"/>
+          <include name="testWeatherForCity"/>
+          <include name="initialsetup"/>
+          <include name="testRegionAndUnit"/>
+          <include name="afterClass"/>
+          <include name="postTestMethod"/>
+        </methods>
+      </class> <!-- com.ncs.Tests.WeatherTest -->
+    </classes>
+  </test> <!-- testng.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->
