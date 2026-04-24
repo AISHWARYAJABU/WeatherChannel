@@ -1,9 +1,9 @@
 # Weather Channel Automation / App
 
 ## Tech Stack
-- Java / JS (whatever you used)
+- Java
 - API Integration
-- Selenium (if used)
+- Selenium 
 
 ## Features
 - Search weather by city
